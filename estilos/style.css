@@ -42,6 +42,9 @@ header {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #menu ul {
@@ -64,8 +67,8 @@ header {
     color: var(--destaque);
 }
 
-/* ---------- Principal ---------- */
-/* ------------------------------- */
+/* ---------- Apresentação ---------- */
+/* ---------------------------------- */
 
 main {
     display: grid;
@@ -232,7 +235,6 @@ article h2 {
 
 /* ---------- Projetos ---------- */
 /* ------------------------------ */
-
 
 #projeto-container {
     display: flex;
